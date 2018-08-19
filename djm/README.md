@@ -1,0 +1,1 @@
+hi, This is my son's record of studying python. ^_^
