@@ -1,8 +1,6 @@
 # 否定：False  确定：true
-
 import easygui
-
-d = easygui.ynbox('你今天过的好吗？')
+d =  easygui.ynbox('你今天过的好吗？')
 if d == True:
     jm = easygui.ynbox('那太好了！和你聊天我很高兴，你觉得呢？')
     if jm == True:
