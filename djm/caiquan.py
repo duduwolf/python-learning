@@ -12,7 +12,7 @@ while go_on == True:
     # 每次循环，电脑都重新出拳
     computer = random.randint(1,3)
     if is_tie == False:
-        msg = '请使出你的洪荒之力，看看能不能猜赢电脑:)'
+        msg = '请使出你的洪荒之力，看看能不能猜赢电脑:'
     else:
         msg = '这把是平局，请继续猜...'
 

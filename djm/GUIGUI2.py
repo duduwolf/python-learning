@@ -2,7 +2,6 @@ import easygui
 import random
 
 qq = easygui.msgbox("我们来玩石头剪刀布吧！")
-print(qq)
 yn = True
 
 while qq == "OK" and yn == True:
@@ -21,5 +20,4 @@ while qq == "OK" and yn == True:
     if a - d == 2 or a - d == -1:
         yn = easygui.ynbox("很遗憾，你输了。再来一把？")
     if a - d == 0:
-        ww = easygui.msgbox("平手")
         yn = True
