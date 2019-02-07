@@ -8,10 +8,10 @@ while v == True:
     if a == "out" :
         break
     b = str(input("请输入计算符号："))
-    if a == "out" or b == "out" :
+    if b == "out" :
         break
     c = input("请输入第二个要计算的数字：")
-    if a == "out" or b == "out" or c == "out" :
+    if c == "out" :
         break
     if a != "out":
         a = int(a)
